@@ -1,6 +1,6 @@
 from numpy import *
 from matplotlib.pyplot import *
-N=100000
+N=10000
 xi=random.randn(N)
 A=array([xi,ones(N)])
 y=random.randn(N)*0.3+xi*2
